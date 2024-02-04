@@ -9,19 +9,44 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div>
+                <a class="navbar" href="#">Felícia</a>
+                <strong class="detalhe_navbar"> Arquivos</strong>
 
-    <div class="content">
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <div class="whapper_homer">
         <h1>Upload de arquivos com o módulo formidable </h1>
-        <form action="/arquivo" method="post" enctype="multipart/form-data">
-            <div class="input-group">
-                <input type="file" id="arquivo" name="arquivoParaUpload">
-            </div>
 
-            <div class="input-group">
-                <input class="btn" type="submit" id="enviar">Enviar
-            </div>
-        </form>
+        <p class="text_home">Criar um Servidor Web em Node utilizando o módulo
+            Formidable para envio de arquivos.
+            • No Replit, se o pacote/recurso (pagkage.json,
+            express, formidable) não estiver disponível, ele será
+            baixado automaticamente
+        </p>
+
+
+        <div class="content">
+            <form action="/arquivo" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" id="arquivo" name="arquivoParaUpload">
+                </div>
+
+                <div class="input-group">
+                    <input class="btn" type="submit" id="enviar">
+                </div>
+            </form>
+        </div>
+
     </div>
+    <footer>
+        <p>© Sandra felicio </p>
+    </footer>
 </body>
 
 </html>
